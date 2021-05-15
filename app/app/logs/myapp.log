@@ -1,0 +1,206 @@
+05/14/2021 09:44:15 AM 127.0.0.1 - - [14/May/2021 09:44:15] "[37mGET / HTTP/1.1[0m" 200 -
+05/14/2021 09:44:16 AM 127.0.0.1 - - [14/May/2021 09:44:16] "[37mGET /profile HTTP/1.1[0m" 200 -
+05/14/2021 09:44:16 AM 127.0.0.1 - - [14/May/2021 09:44:16] "[37mGET /profile HTTP/1.1[0m" 200 -
+05/14/2021 09:44:23 AM 127.0.0.1 - - [14/May/2021 09:44:23] "[37mPOST /upload-image HTTP/1.1[0m" 200 -
+05/14/2021 09:44:23 AM 127.0.0.1 - - [14/May/2021 09:44:23] "[37mGET /upload-image HTTP/1.1[0m" 200 -
+05/14/2021 09:44:35 AM La taille de l'image excède la taille maximale autorisée
+05/14/2021 09:44:35 AM 127.0.0.1 - - [14/May/2021 09:44:35] "[32mPOST /upload-image HTTP/1.1[0m" 302 -
+05/14/2021 09:44:35 AM 127.0.0.1 - - [14/May/2021 09:44:35] "[37mGET /profile HTTP/1.1[0m" 200 -
+05/14/2021 09:44:35 AM 127.0.0.1 - - [14/May/2021 09:44:35] "[37mGET /profile HTTP/1.1[0m" 200 -
+05/14/2021 09:44:56 AM  * Detected change in 'C:\\Users\\afougere\\Git\\project\\app\\app\\main.py', reloading
+05/14/2021 09:44:56 AM  * Detected change in 'C:\\Users\\afougere\\Git\\project\\app\\app\\main.py', reloading
+05/14/2021 09:44:56 AM  * Detected change in 'C:\\Users\\afougere\\Git\\project\\app\\app\\main.py', reloading
+2021-05-14 09:45:20,124 - main.py - WARNING - Cette extension n'est pas autorisée
+2021-05-14 09:45:33,931 - main.py - WARNING - L'image doit avoir un nom
+2021-05-14 09:45:42,629 - main.py - WARNING - Cette extension n'est pas autorisée
+2021-05-14 09:45:50,104 - main.py - WARNING - La taille de l'image excède la taille maximale autorisée
+2021-05-14 09:46:31,407 - main.py - WARNING - La taille de l'image excède la taille maximale autorisée
+2021-05-14 09:48:35,650 - main.py - INFO - La prédiction de l'image a été réussie
+2021-05-14 09:48:35,650 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static
+2021-05-14 09:49:38,141 - main.py - INFO - Le modèle a bien été uploadé
+2021-05-14 09:49:38,892 - main.py - INFO - Le modèle a bien été uploadé
+2021-05-14 09:49:39,424 - main.py - INFO - La prédiction de l'image a été réussie
+2021-05-14 09:49:39,425 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static
+2021-05-14 09:50:48,173 - main.py - INFO - Le modèle a bien été uploadé
+2021-05-14 09:50:48,925 - main.py - INFO - Le modèle a bien été uploadé
+2021-05-14 09:50:49,408 - main.py - INFO - La prédiction de l'image a été réussie
+2021-05-14 09:50:49,409 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static
+2021-05-14 09:51:46,362 - main.py - INFO - La prédiction de l'image a été réussie
+2021-05-14 09:51:46,362 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static
+2021-05-14 09:52:54,282 - main.py - INFO - Le modèle a bien été uploadé
+2021-05-14 09:52:55,130 - main.py - INFO - La prédiction de l'image a été réussie
+2021-05-14 09:52:55,135 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static
+2021-05-14 09:54:17,829 - main.py - WARNING - La taille de l'image excède la taille maximale autorisée
+2021-05-14 15:28:55,287 - main.py - INFO - Le modèle a bien été uploadé
+2021-05-14 15:28:56,061 - main.py - INFO - La prédiction de l'image a été réussie
+2021-05-14 15:28:56,062 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static
+2021-05-14 15:49:16,381 - main.py - INFO - Le modèle a bien été uploadé
+2021-05-14 15:49:17,131 - main.py - INFO - La prédiction de l'image a été réussie
+2021-05-14 15:49:17,131 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static
+2021-05-14 15:54:34,293 - main.py - INFO - Le modèle a bien été uploadé
+2021-05-14 15:54:35,050 - main.py - INFO - La prédiction de l'image a été réussie
+2021-05-14 15:54:35,050 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static
+2021-05-14 15:54:42,480 - main.py - INFO - Le modèle a bien été uploadé
+2021-05-14 15:54:43,014 - main.py - INFO - La prédiction de l'image a été réussie
+2021-05-14 15:54:43,014 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static
+2021-05-14 15:55:10,737 - main.py - INFO - Le modèle a bien été uploadé
+2021-05-14 15:55:11,270 - main.py - INFO - La prédiction de l'image a été réussie
+2021-05-14 15:55:11,271 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static
+2021-05-14 15:55:52,688 - main.py - INFO - Le modèle a bien été uploadé
+2021-05-14 15:55:53,233 - main.py - INFO - La prédiction de l'image a été réussie
+2021-05-14 15:55:53,233 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static
+2021-05-14 15:55:59,139 - main.py - INFO - Le modèle a bien été uploadé
+2021-05-14 15:55:59,656 - main.py - INFO - La prédiction de l'image a été réussie
+2021-05-14 15:55:59,657 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static
+2021-05-14 15:57:42,394 - main.py - INFO - Le modèle a bien été uploadé
+2021-05-14 15:57:42,930 - main.py - INFO - La prédiction de l'image a été réussie
+2021-05-14 15:57:42,931 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static
+2021-05-14 15:57:52,312 - main.py - INFO - Le modèle a bien été uploadé
+2021-05-14 15:57:52,806 - main.py - INFO - La prédiction de l'image a été réussie
+2021-05-14 15:57:52,807 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static
+2021-05-14 15:58:02,310 - main.py - INFO - Le modèle a bien été uploadé
+2021-05-14 15:58:02,837 - main.py - INFO - La prédiction de l'image a été réussie
+2021-05-14 15:58:02,837 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static
+2021-05-14 15:58:20,210 - main.py - INFO - Le modèle a bien été uploadé
+2021-05-14 15:58:20,786 - main.py - INFO - La prédiction de l'image a été réussie
+2021-05-14 15:58:20,787 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static
+2021-05-14 15:58:46,729 - main.py - INFO - Le modèle a bien été uploadé
+2021-05-14 15:58:47,278 - main.py - INFO - La prédiction de l'image a été réussie
+2021-05-14 15:58:47,278 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static
+2021-05-14 15:58:55,246 - main.py - INFO - Le modèle a bien été uploadé
+2021-05-14 15:58:55,744 - main.py - INFO - La prédiction de l'image a été réussie
+2021-05-14 15:58:55,744 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static
+2021-05-14 15:59:06,332 - main.py - INFO - Le modèle a bien été uploadé
+2021-05-14 15:59:06,863 - main.py - INFO - La prédiction de l'image a été réussie
+2021-05-14 15:59:06,863 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static
+2021-05-14 15:59:13,998 - main.py - INFO - Le modèle a bien été uploadé
+2021-05-14 15:59:14,502 - main.py - INFO - La prédiction de l'image a été réussie
+2021-05-14 15:59:14,502 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static
+2021-05-14 15:59:20,005 - main.py - INFO - Le modèle a bien été uploadé
+2021-05-14 15:59:20,752 - main.py - INFO - La prédiction de l'image a été réussie
+2021-05-14 15:59:20,752 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static
+2021-05-14 15:59:26,062 - main.py - INFO - Le modèle a bien été uploadé
+2021-05-14 15:59:26,604 - main.py - INFO - La prédiction de l'image a été réussie
+2021-05-14 15:59:26,604 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static
+2021-05-14 15:59:44,064 - main.py - INFO - Le modèle a bien été uploadé
+2021-05-14 15:59:44,600 - main.py - INFO - La prédiction de l'image a été réussie
+2021-05-14 15:59:44,601 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static
+2021-05-14 15:59:52,624 - main.py - INFO - Le modèle a bien été uploadé
+2021-05-14 15:59:53,108 - main.py - INFO - La prédiction de l'image a été réussie
+2021-05-14 15:59:53,108 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static
+2021-05-14 16:00:01,712 - main.py - INFO - Le modèle a bien été uploadé
+2021-05-14 16:00:02,252 - main.py - INFO - La prédiction de l'image a été réussie
+2021-05-14 16:00:02,252 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static
+2021-05-14 16:00:10,856 - main.py - INFO - Le modèle a bien été uploadé
+2021-05-14 16:00:11,356 - main.py - INFO - La prédiction de l'image a été réussie
+2021-05-14 16:00:11,356 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static
+2021-05-14 16:00:17,365 - main.py - INFO - Le modèle a bien été uploadé
+2021-05-14 16:00:17,885 - main.py - INFO - La prédiction de l'image a été réussie
+2021-05-14 16:00:17,885 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static
+2021-05-14 16:00:23,871 - main.py - INFO - Le modèle a bien été uploadé
+2021-05-14 16:00:24,625 - main.py - INFO - La prédiction de l'image a été réussie
+2021-05-14 16:00:24,626 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static
+2021-05-14 16:00:44,743 - main.py - INFO - Le modèle a bien été uploadé
+2021-05-14 16:00:45,295 - main.py - INFO - La prédiction de l'image a été réussie
+2021-05-14 16:00:45,295 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static
+2021-05-14 16:00:46,894 - main.py - WARNING - Cette extension n'est pas autorisée
+2021-05-14 16:03:04,003 - main.py - INFO - Le modèle a bien été uploadé
+2021-05-14 16:03:04,753 - main.py - INFO - La prédiction de l'image a été réussie
+2021-05-14 16:03:04,753 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static
+2021-05-14 16:03:11,814 - main.py - INFO - Le modèle a bien été uploadé
+2021-05-14 16:03:12,309 - main.py - INFO - La prédiction de l'image a été réussie
+2021-05-14 16:03:12,309 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static
+2021-05-14 16:03:29,469 - main.py - INFO - Le modèle a bien été uploadé
+2021-05-14 16:03:29,998 - main.py - INFO - La prédiction de l'image a été réussie
+2021-05-14 16:03:29,999 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static
+2021-05-14 16:03:35,954 - main.py - INFO - Le modèle a bien été uploadé
+2021-05-14 16:03:36,465 - main.py - INFO - La prédiction de l'image a été réussie
+2021-05-14 16:03:36,466 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static
+2021-05-14 16:03:45,557 - main.py - INFO - Le modèle a bien été uploadé
+2021-05-14 16:03:46,066 - main.py - INFO - La prédiction de l'image a été réussie
+2021-05-14 16:03:46,066 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static
+2021-05-14 16:10:42,634 - main.py - INFO - Le modèle a bien été uploadé
+2021-05-14 16:10:43,375 - main.py - INFO - La prédiction de l'image a été réussie
+2021-05-14 16:10:43,375 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static
+2021-05-14 16:14:26,391 - main.py - INFO - Le modèle a bien été uploadé
+2021-05-14 16:14:27,103 - main.py - INFO - La prédiction de l'image a été réussie
+2021-05-14 16:14:27,103 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static
+2021-05-14 16:15:00,618 - main.py - INFO - Le modèle a bien été uploadé
+2021-05-14 16:15:01,394 - main.py - INFO - La prédiction de l'image a été réussie
+2021-05-14 16:15:01,394 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static
+2021-05-14 16:15:36,881 - main.py - INFO - Le modèle a bien été uploadé
+2021-05-14 16:15:37,391 - main.py - INFO - La prédiction de l'image a été réussie
+2021-05-14 16:15:37,392 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static
+2021-05-14 16:16:13,757 - main.py - INFO - Le modèle a bien été uploadé
+2021-05-14 16:16:14,359 - main.py - INFO - La prédiction de l'image a été réussie
+2021-05-14 16:16:14,359 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static
+2021-05-14 16:16:17,611 - main.py - WARNING - Cette extension n'est pas autorisée
+2021-05-14 16:16:20,537 - main.py - INFO - Le modèle a bien été uploadé
+2021-05-14 16:16:21,061 - main.py - INFO - La prédiction de l'image a été réussie
+2021-05-14 16:16:21,061 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static
+2021-05-14 16:17:15,077 - main.py - INFO - Le modèle a bien été uploadé
+2021-05-14 16:17:15,780 - main.py - INFO - La prédiction de l'image a été réussie
+2021-05-14 16:17:15,780 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static
+2021-05-14 16:19:43,054 - main.py - INFO - Le modèle a bien été uploadé
+2021-05-14 16:19:43,880 - main.py - INFO - La prédiction de l'image a été réussie
+2021-05-14 16:19:43,881 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static
+2021-05-14 16:20:49,368 - main.py - INFO - Le modèle a bien été uploadé
+2021-05-14 16:20:50,094 - main.py - INFO - La prédiction de l'image a été réussie
+2021-05-14 16:20:50,095 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static
+2021-05-14 16:22:26,008 - main.py - INFO - Le modèle a bien été uploadé
+2021-05-14 16:22:27,047 - main.py - INFO - La prédiction de l'image a été réussie
+2021-05-14 16:22:27,047 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static
+2021-05-14 16:22:33,373 - main.py - INFO - Le modèle a bien été uploadé
+2021-05-14 16:22:33,921 - main.py - INFO - La prédiction de l'image a été réussie
+2021-05-14 16:22:33,921 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static
+2021-05-14 16:23:02,985 - main.py - INFO - Le modèle a bien été uploadé
+2021-05-14 16:23:03,748 - main.py - INFO - La prédiction de l'image a été réussie
+2021-05-14 16:23:03,748 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static
+2021-05-14 16:23:07,565 - main.py - INFO - Le modèle a bien été uploadé
+2021-05-14 16:23:08,107 - main.py - INFO - La prédiction de l'image a été réussie
+2021-05-14 16:23:08,107 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static
+2021-05-14 16:26:30,898 - main.py - INFO - Le modèle a bien été uploadé
+2021-05-14 16:26:31,655 - main.py - INFO - La prédiction de l'image a été réussie
+2021-05-14 16:26:31,655 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static
+2021-05-14 16:30:04,020 - main.py - INFO - Le modèle a bien été uploadé
+2021-05-14 16:30:04,771 - main.py - INFO - La prédiction de l'image a été réussie
+2021-05-14 16:30:04,772 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static
+2021-05-14 16:31:12,643 - main.py - INFO - Le modèle a bien été uploadé
+2021-05-14 16:31:13,385 - main.py - INFO - La prédiction de l'image a été réussie
+2021-05-14 16:31:13,385 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static
+2021-05-14 16:32:06,159 - main.py - INFO - Le modèle a bien été uploadé
+2021-05-14 16:32:06,873 - main.py - INFO - La prédiction de l'image a été réussie
+2021-05-14 16:32:06,873 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static
+2021-05-14 16:32:42,186 - main.py - INFO - Le modèle a bien été uploadé
+2021-05-14 16:32:42,889 - main.py - INFO - La prédiction de l'image a été réussie
+2021-05-14 16:32:42,890 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static
+2021-05-14 16:33:39,686 - main.py - INFO - Le modèle a bien été uploadé
+2021-05-14 16:33:40,390 - main.py - INFO - La prédiction de l'image a été réussie
+2021-05-14 16:33:40,390 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static
+2021-05-14 16:35:08,413 - main.py - INFO - Le modèle a bien été uploadé
+2021-05-14 16:35:09,145 - main.py - INFO - La prédiction de l'image a été réussie
+2021-05-14 16:35:09,155 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static
+2021-05-14 16:35:13,745 - main.py - INFO - Le modèle a bien été uploadé
+2021-05-14 16:35:14,245 - main.py - INFO - La prédiction de l'image a été réussie
+2021-05-14 16:35:14,246 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static
+2021-05-14 16:36:23,696 - main.py - INFO - Le modèle a bien été uploadé
+2021-05-14 16:36:24,486 - main.py - INFO - La prédiction de l'image a été réussie
+2021-05-14 16:36:24,486 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static
+2021-05-14 16:37:08,065 - main.py - INFO - Le modèle a bien été uploadé
+2021-05-14 16:37:08,790 - main.py - INFO - La prédiction de l'image a été réussie
+2021-05-14 16:37:08,791 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static
+2021-05-14 16:37:46,770 - main.py - INFO - Le modèle a bien été uploadé
+2021-05-14 16:37:47,310 - main.py - INFO - La prédiction de l'image a été réussie
+2021-05-14 16:37:47,310 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static
+2021-05-14 16:38:38,466 - main.py - INFO - Le modèle a bien été uploadé
+2021-05-14 16:38:39,201 - main.py - INFO - La prédiction de l'image a été réussie
+2021-05-14 16:38:39,201 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static
+2021-05-14 16:39:10,447 - main.py - INFO - Le modèle a bien été uploadé
+2021-05-14 16:39:11,231 - main.py - INFO - La prédiction de l'image a été réussie
+2021-05-14 16:39:11,232 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static
+2021-05-14 16:39:14,939 - main.py - INFO - Le modèle a bien été uploadé
+2021-05-14 16:39:15,470 - main.py - INFO - La prédiction de l'image a été réussie
+2021-05-14 16:39:15,471 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static
+2021-05-14 16:40:06,674 - main.py - INFO - Le modèle a bien été uploadé
+2021-05-14 16:40:07,372 - main.py - INFO - La prédiction de l'image a été réussie
+2021-05-14 16:40:07,373 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static

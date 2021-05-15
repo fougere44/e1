@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+
+{% block content %}
+<link rel="stylesheet" href="https://cdn.lineicons.com/2.0/LineIcons.css">
+
+<div class="demo-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-12 mx-auto">
+                <div class="text-center image-size-small position-relative">
+                    <img src="https://i.ibb.co/vQ7nSMk/woman-wearing-virtual-reality-headset-260nw-403765015.webp"
+                        class="rounded-circle p-2 bg-white">
+                    <div class="icon-camera">
+                        <a href="" class="text-primary"><i class="lni lni-camera"></i></a>
+                    </div>
+                </div>
+                <div class="p-5 bg-white rounded shadow-lg">
+                    <h3 class="mb-2 text-center pt-5">Se connecter</h3>
+                    <p class="text-center lead">Connecte toi pour accéder à tous les services </p>
+                    <div class="box">
+                        <div class="container">
+                            {% with messages = get_flashed_messages(with_categories=true) %}
+                            {% if messages %}
+                            {% for category, message in messages %}
+                            <div class="alert alert-{{ category }} alert-dismissible fade show" role="alert">
+                                <span>{{ message }}</span>
+                                <button type="button" class="btn-close" data-dismiss="alert" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            {% endfor %}
+                            {% endif %}
+                            {% endwith %}
+                        </div>
+                        <form method="POST" action="/login">
+                            <div class="field">
+                                <div class="control">
+                                    <label class="font-500">Email</label>
+                                    <input class="form-control form-control-lg mb-3" type="email" name="email"
+                                        placeholder="email" autofocus="">
+                                </div>
+                            </div>
+                            <div class="field">
+                                <div class="control">
+                                    <label class="font-500">Mot de passe</label>
+                                    <input class="form-control form-control-lg mb-3" type="password" name="password"
+                                        placeholder="password">
+                                </div>
+                            </div>
+                            <div class="field">
+                                <label class="checkbox">
+                                    <input type="checkbox">
+                                    Se souvenir de moi
+                                </label>
+                            </div>
+                            <button class="btn btn-primary btn-lg w-100 shadow-lg">Se connecter</button>
+                        </form>
+                        <div class="text-center pt-4">
+                            <p class="m-0">As-tu un compte ? <a href="{{ url_for('auth.signup') }}"
+                                    class="text-dark font-weight-bold">S'inscrire</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                {% endblock %}

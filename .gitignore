@@ -1,0 +1,13 @@
+# repository
+.pytest_cache
+.vscode
+__pycache__
+*__pycache__
+.ipynb_checkpoints
+
+# ignorer tous les fichiers ou répertoire 
+*data
+*models
+*mlruns
+*gestion_projet
+

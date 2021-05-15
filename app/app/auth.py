@@ -4,7 +4,7 @@ from flask_login import login_user, logout_user, login_required, login_manager
 from . import db
 from .models import User
 
-auth = Blueprint('auth',__name__,template_folder='templates',static_folder='static',static_url_path="/Users/afougere/Git/project/app/app/static/css")
+auth = Blueprint('auth',__name__,template_folder='templates',static_folder='static',static_url_path="/Users/afougere/Git/e1/app/app/static/css")
 
 @auth.route('/login')
 def login():

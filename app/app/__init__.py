@@ -17,11 +17,11 @@ def create_app():
     app = Flask(__name__)
 
     app.config['SECRET_KEY'] ='0123456'
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:////Users/afougere/Git/project/app/app/base_de_donnees/db.sqlite3'
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:////Users/afougere/Git/e1/app/app/base_de_donnees/db.sqlite3'
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
     
     ### Connexion au dashboard Flask-Monitoring
-    dashboard.config.init_from(file='/Users/afougere/Git/project/app/app/configs.cfg')
+    dashboard.config.init_from(file='/Users/afougere/Git/e1/app/app/configs.cfg')
     dashboard.bind(app)
 
     db.init_app(app)

@@ -5,7 +5,7 @@ import sqlite3
 #path_env = "C:\Users\afougere\Anaconda3\envs\IA-Racing"
 
 # nom de la base de données : iaracing.db
-#path_db = "C:/Users/afougere/Git/racing_project/data_mysim/stockage_bdd/"
+#path_db = "C:/Users/afougere/Git/e1/data_mysim/stockage_bdd/"
 db_name = '../stockage_bdd/iaracing.db'
 
 # Création de la base de données et des sept tables

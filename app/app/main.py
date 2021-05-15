@@ -40,9 +40,9 @@ logger.addHandler(ch)
 
 
 #path_env = "C:\Users\afougere\Anaconda3\envs\IA-Racing"
-#path_repo = "C:\Users\afougere\Git\project"
+#path_repo = "C:\Users\afougere\Git\e1"
 
-main = Blueprint('main',__name__,template_folder='templates',static_folder='static',static_url_path="/Users/afougere/Git/project/app/app/static/css")
+main = Blueprint('main',__name__,template_folder='templates',static_folder='static',static_url_path="/Users/afougere/Git/e1/app/app/static/css")
 
 
 
@@ -88,7 +88,7 @@ def allowed_image_filesize(filesize):
 
 @main.route("/upload-image", methods=['GET', 'POST'])
 def upload_image():
-    path_image = "C:/Users/afougere/Git/project/app/app/static/img/uploads"
+    path_image = "C:/Users/afougere/Git/e1/app/app/static/img/uploads"
 
     if request.method == "POST":
         if request.files:
@@ -140,8 +140,8 @@ def upload_image():
 def getPrediction(filename):
 
     logger.info("Le modèle a bien été uploadé")   
-    model = load_model('C:/Users/afougere/Git/project/data_analysis/models/output_model/test_custom_warehouse_waveshare.h5')
-    path_image = "C:/Users/afougere/Git/project/data_analysis/data/images_data/images/test/test_images_flask/"
+    model = load_model('C:/Users/afougere/Git/e1/data_analysis/models/output_model/test_custom_warehouse_waveshare.h5')
+    path_image = "C:/Users/afougere/Git/e1/data_analysis/data/images_data/images/test/test_images_flask/"
     image = load_img(path_image + filename)
     image = img_to_array(image)
     image = image.reshape((1,) + image.shape)

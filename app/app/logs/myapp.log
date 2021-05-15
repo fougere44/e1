@@ -204,3 +204,6 @@
 2021-05-14 16:40:06,674 - main.py - INFO - Le modèle a bien été uploadé
 2021-05-14 16:40:07,372 - main.py - INFO - La prédiction de l'image a été réussie
 2021-05-14 16:40:07,373 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static
+2021-05-15 17:51:14,821 - main.py - INFO - Le modèle a bien été uploadé
+2021-05-15 17:51:17,047 - main.py - INFO - La prédiction de l'image a été réussie
+2021-05-15 17:51:17,067 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static

@@ -40,7 +40,7 @@ logger.addHandler(ch)
 
 
 #path_env = "C:\Users\afougere\Anaconda3\envs\IA-Racing"
-#path_repo = "C:\Users\afougere\Git\e1"
+#path_repo = "C:\Users\afougere\Git\e1\app"
 
 main = Blueprint('main',__name__,template_folder='templates',static_folder='static',static_url_path="/Users/afougere/Git/e1/app/app/static/css")
 

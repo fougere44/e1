@@ -11,7 +11,7 @@ db_name = '../stockage_bdd/iaracing.db'
 # Création de la base de données et des sept tables
 create_database(db_name)
 
-# Suprresion des tables si elles existent déjà dans la base de données iaracing.db
+# Suppression des tables si elles existent déjà dans la base de données iaracing.db
 liste_tables = ['direction', 'angle', 'puissance', 'throttle', 'circuit', 'path_images', 'images']
 
 for i in liste_tables:

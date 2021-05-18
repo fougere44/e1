@@ -135,30 +135,24 @@ def getModelCustom():
     x = Conv2D(128, kernel_size=(3, 3), activation='relu')(x)
     x = MaxPooling2D(pool_size=(2, 2), strides=(2, 2))(x)
 
-    
     #Conv Layer 3
     x = Conv2D(128, kernel_size=(3, 3), activation='relu')(x)
     x = MaxPooling2D(pool_size=(2, 2), strides=(2, 2))(x)
-
 
     #Conv Layer 4
     x = Conv2D(256, kernel_size=(3, 3), activation='relu')(x)
     x = MaxPooling2D(pool_size=(2, 2), strides=(1, 1))(x)
 
-
     #Conv Layer 5
     x = Conv2D(256, kernel_size=(3, 3), activation='relu')(x)
     x = MaxPooling2D(pool_size=(2, 2), strides=(1, 1))(x)
-
 
     #Conv Layer 6
     x = Conv2D(512, kernel_size=(3, 3), activation='relu')(x)
     x = MaxPooling2D(pool_size=(2, 2), strides=(1, 1))(x)
     
-
     x = Flatten(name='flattened')(x)
     # Flatten to 1D (Fully connected)
-    
 
     x = Dense(1024, activation='relu', use_bias=False)(x)                                   
     x = Dropout(0.4)(x)                                                      
@@ -187,7 +181,7 @@ def getModelCustom():
 
     return model
 
-#model_custom = getModelCustom()
+model_custom = getModelCustom()
 
 
 

@@ -10,6 +10,7 @@ colorama==0.4.4
 colorhash==1.0.3
 configparser==5.0.2
 Flask==1.1.4
+Flask-Limiter==1.4
 Flask-Login==0.5.0
 Flask-Migrate==3.0.0
 Flask-MonitoringDashboard==3.1.0
@@ -28,6 +29,7 @@ itsdangerous==1.1.0
 Jinja2==2.11.1
 Keras==2.4.3
 Keras-Preprocessing==1.1.2
+limits==1.5.1
 Mako==1.1.4
 Markdown==3.3.4
 MarkupSafe==2.0.0

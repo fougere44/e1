@@ -17,10 +17,6 @@ from keras.preprocessing.image import img_to_array
 import numpy as np
 import logging
 
-
-
-logging.basicConfig(filemode='w', format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
-
 #create logger
 logger = logging.getLogger('main.py')
 logger.setLevel(logging.DEBUG)
@@ -38,6 +34,12 @@ ch.setFormatter(formatter)
 # add ch to logger
 logger.addHandler(ch)
 
+
+#from flask_limiter import Limiter
+#from flask_limiter.util import get_remote_address
+
+
+#limiter = Limiter(app, key_func=get_remote_address)
 
 #path_env = "C:\Users\afougere\Anaconda3\envs\IA-Racing"
 #path_repo = "C:\Users\afougere\Git\e1\app"
@@ -87,6 +89,7 @@ def allowed_image_filesize(filesize):
 
 
 @main.route("/upload-image", methods=['GET', 'POST'])
+#@limiter.limit("5 per minute")
 def upload_image():
     path_image = "C:/Users/afougere/Git/e1/app/app/static/img/uploads"
 

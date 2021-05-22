@@ -215,3 +215,6 @@
 2021-05-22 18:07:47,183 - main.py - INFO - La prédiction de l'image a été réussie
 2021-05-22 18:07:47,183 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static
 2021-05-22 18:08:46,218 - main.py - WARNING - La taille de l'image excède la taille maximale autorisée
+2021-05-23 00:01:00,742 - main.py - INFO - Le modèle a bien été uploadé
+2021-05-23 00:01:01,578 - main.py - INFO - La prédiction de l'image a été réussie
+2021-05-23 00:01:01,578 - main.py - INFO - L'image prédite a été sauvegardé dans le dossier static
